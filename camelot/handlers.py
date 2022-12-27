@@ -3,7 +3,7 @@
 import os
 import sys
 
-from PyPDF2 import PdfFileReader, PdfFileWriter
+from PyPDF4 import PdfFileReader, PdfFileWriter
 
 from .core import TableList
 from .parsers import Stream, Lattice
